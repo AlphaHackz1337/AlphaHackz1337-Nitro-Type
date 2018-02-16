@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         UltraType Turbo Mode
+// @name         AlphaHackz1337 Turbo Mode
 // @version      1
 // @description  Instantly wins any NitroType race without fail
 // @author       You
@@ -24,9 +24,9 @@ function start() {
 }
 (function() {
     'use strict';
-    // Loop until UltraType has preloaded, then fire the start() function
+    // Loop until AlphaHackz1337 has preloaded, then fire the start() function
     setInterval(() => {
-        if (unsafeWindow["UltraTypeCore"]) {
+        if (unsafeWindow["AlphaHackzCore"]) {
             start();
             clearInterval(this);
         }
