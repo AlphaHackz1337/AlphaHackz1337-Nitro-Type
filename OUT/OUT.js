@@ -23,13 +23,13 @@
     }
     if (!isValidPage(window.location.href)) {
         // Don't load if not on the race page
-        console.warn('UltraType: not loading on this page. Bye!');
+        console.warn('AlphaHackz1337: not loading on this page. Bye!');
         document.currentScript.remove(); // Remove this script from the dom
         return; // Halt execution
     }
-    if (window["UltraTypeCore"]) {
+    if (window["AlphaHackzCore"]) {
         // There's already an instance of UltraType on this page
-        console.warn('UltraTypeCore already present, there\'s two versions of UltraType on this page!');
+        console.warn('AlphaHackzCore already present, there\'s two versions of AlphaHackz on this page!');
         return;
     }
     // Constants
